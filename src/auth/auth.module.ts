@@ -1,5 +1,5 @@
 import { Module } from "@nestjs/common";
-import { UsuarioModule } from "src/usuario/usuario.module";
+import { UsuarioModule } from "../usuario/usuario.module";
 import { Bcrypt } from "./bcrypt/bcrypt";
 import {PassportModule} from '@nestjs/passport'
 import { JwtModule } from "@nestjs/jwt/dist";

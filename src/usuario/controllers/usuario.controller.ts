@@ -2,7 +2,7 @@ import { Body, Controller, Get, HttpCode, HttpStatus, Post, Put, UseGuards } fro
 import { ApiTags } from "@nestjs/swagger/dist/decorators";
 import { ApiBearerAuth } from "@nestjs/swagger/dist/decorators/api-bearer.decorator";
  
-import { JwtAuthGuard } from "src/auth/guard/jwt-auth.guard";
+import { JwtAuthGuard } from "../../auth/guard/jwt-auth.guard";
 import { Usuario } from "../entities/usuario.entity";
 import { UsuarioService } from "../services/usuario.service";
 
